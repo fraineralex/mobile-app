@@ -4,7 +4,7 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "examen1",
-    "slug": "examen1"
+    "name": "react-native-app",
+    "slug": "react-native-app"
   }
 }
