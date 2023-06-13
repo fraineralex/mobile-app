@@ -20,7 +20,7 @@ const table = () => {
     }
 
     const newTable = [];
-    for (let i = 1; i <= 13; i++) {
+    for (let i = 1; i <= 14; i++) {
       const result = parsedNumber * i;
       newTable.push(`${parsedNumber} x ${i} = ${result}`);
     }
@@ -31,7 +31,11 @@ const table = () => {
   return (
     <TouchableWithoutFeedback onPress={dismissKeyboard}>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 20 }}>
+        <Text style={{ 
+          fontSize: 24, 
+          fontWeight: 'bold', 
+          marginBottom: 20 }}
+        >
           Multiplication Table
         </Text>
         <TextInput
@@ -61,12 +65,20 @@ const table = () => {
           }}
           onPress={generateTable}
         >
-          <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 16 }}>Generar tabla</Text>
+          <Text style={{ 
+            color: 'white', 
+            fontWeight: 'bold', 
+            fontSize: 16 }}
+          >
+            Generate table
+          </Text>
         </TouchableOpacity>
         {table.length > 0 && (
           <View>
             {table.map((result, index) => (
-              <Text key={index} style={{ fontSize: 16, marginBottom: 5 }}>
+              <Text key={index} style={{ 
+                fontSize: 16, 
+                marginBottom: 5 }}>
                 {result}
               </Text>
             ))}

@@ -11,15 +11,25 @@ export default () => {
         name='home'
         options={{
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="ios-home" size={size} color={color} />
+            <Ionicons 
+              name="ios-home" 
+              size={size} 
+              color={color} 
+            />
           ),
           tabBarLabel: () => (
-            <Text style={{ textTransform: 'capitalize' }}>
+            <Text style={{ 
+                textTransform: 'capitalize' 
+              }}>
               Home
             </Text>
           ),
           headerTitle: () => (
-            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+            <Text style={{
+                textTransform: 'capitalize', 
+                textAlign: 'center', 
+                fontWeight: 'bold' 
+               }}>
               Home
             </Text>
           ),
@@ -31,15 +41,25 @@ export default () => {
         name='table'
         options={{
           tabBarIcon: ({color, size}) => (
-            <Ionicons name="ios-calculator" size={size} color={color} />
+            <Ionicons 
+              name="ios-calculator" 
+              size={size} 
+              color={color} 
+            />
           ),
           tabBarLabel: () => (
-            <Text style={{ textTransform: 'capitalize' }}>
+            <Text style={{ 
+                textTransform: 'capitalize' 
+              }}>
               Table
             </Text>
           ),
           headerTitle: () => (
-            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+            <Text style={{ 
+                textTransform: 'capitalize', 
+                textAlign: 'center', 
+                fontWeight: 'bold' 
+              }}>
               Table
             </Text>
           ),
@@ -51,15 +71,22 @@ export default () => {
         name='higher-number'
         options={{
           tabBarIcon: ({color, size}) => (
-            <Octicons name="number" size={size} color={color} />
+            <Octicons 
+            name="number" size={size} color={color} />
           ),
           tabBarLabel: () => (
-            <Text style={{ textTransform: 'capitalize' }}>
+            <Text style={{ 
+              textTransform: 'capitalize' }}
+            >
               Higher number
             </Text>
           ),
           headerTitle: () => (
-            <Text style={{ textTransform: 'capitalize', textAlign: 'center', fontWeight: 'bold' }}>
+            <Text style={{ 
+              textTransform: 'capitalize', 
+              textAlign: 'center', 
+              fontWeight: 'bold' }}
+            >
               Higher number
             </Text>
           ),

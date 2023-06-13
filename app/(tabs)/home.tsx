@@ -5,10 +5,11 @@ const home = () => {
   const fullname = 'Frainer Alexander Encarnación'
   const profession = 'Software Engineer'
   const email = 'frainerexample@gmail.com'
+  const imagePath = 'https://unavatar.io/fraineralex'
   return (
     <View style={styles.container}>
       <Image 
-        source={{ uri: 'https://unavatar.io/fraineralex' }} 
+        source={{ uri: imagePath }} 
         style={styles.profileImage}
       />
       <Text style={styles.name}>{fullname}</Text>

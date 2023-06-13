@@ -43,7 +43,10 @@ const HigherNumber = () => {
           <Text style={styles.buttonText}>Find</Text>
         </TouchableOpacity>
         {result !== undefined && (
-          <Text style={styles.result}>The higher number is: <Text style={{fontWeight: 'bold'}}>{result}</Text></Text>
+          <Text style={styles.result}>
+            The higher number is: 
+            <Text style={{fontWeight: 'bold'}}> {result}</Text>
+          </Text>
         )}
       </View>
     </TouchableWithoutFeedback>
