@@ -1,11 +1,19 @@
-# Expo Router Example
+# Simple Mobile App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+Simple mobile application build with TypeScript in React Native.
+
+## 🚀 Requeriments
+- Node.js LTS release
+- Git
 
 ## 🚀 How to use
 
 ```sh
-npx create-expo-app -e with-router
+npm install
+```
+and then
+```sh
+npm start
 ```
 
 ## 📝 Notes
