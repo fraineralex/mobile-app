@@ -2,21 +2,23 @@
 
 Simple mobile application build with TypeScript in React Native.
 
-## 🚁 Requeriments
+## ✅ Requeriments
 - Node.js LTS release
 - Git
 
-## 🚀 How to use
+## :checkered_flag: Starting ##
 
-```sh
-npm install
+```bash
+# Clone this project
+    $ git clone https://github.com/fraineralex/mobile-app
+# Access
+    $ cd mobile-app-main
+# Install dependencies
+    $ npm install
+# Run the project
+    $ npm start
+# The server will execute and you will see access options in your terminal
 ```
-and then
-```sh
-npm start
-```
 
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+## 👨🏻‍🚀 Developer
+Made with 💙 by <a href="https://github.com/fraineralex" target="_blank">Frainer Encarnación</a>
