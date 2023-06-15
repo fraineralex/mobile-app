@@ -2,7 +2,7 @@
 
 Simple mobile application build with TypeScript in React Native.
 
-## 🚀 Requeriments
+## 🚁 Requeriments
 - Node.js LTS release
 - Git
 
